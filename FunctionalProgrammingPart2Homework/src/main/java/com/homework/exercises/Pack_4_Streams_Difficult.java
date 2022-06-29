@@ -63,7 +63,6 @@ public class Pack_4_Streams_Difficult {
         assertThat(result, sameBeanAs(110L));
     }
 
-    @Ignore
     @Test
     public void exercise_3_flatMap() {
         // find the total number of all different home and correspondence addresses
@@ -79,7 +78,6 @@ public class Pack_4_Streams_Difficult {
         assertThat(result, sameBeanAs(1820L));
     }
 
-    @Ignore
     @Test
     public void exercise_4_groupingBy_summingInt() {
         // find how much in total each company pays (annually) to their employees, order result by amount
